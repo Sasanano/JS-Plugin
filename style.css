@@ -1,8 +1,21 @@
-.title {
+.app {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.dropdown {
     position: relative;
-    text-align: center;
-    font-size: 25px;
-    font-style: bold;
-    line-height: 20px;
-    color: brown;
+    width: 400px;
+
+}
+
+.dropdown__label {
+
+}
+
+.dropdown__menu {
+    list-style: none;
 }
